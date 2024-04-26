@@ -10,11 +10,10 @@ def maior_divisor (a, b):
     return (mdc)
 
 def main ():
-    a = int(input("DIGITE UM NÚMERO: "))
-    b = int(input("DIGITE UM NÚMERO: "))
+    a = int(input("Digite um número: "))
+    b = int(input("Digite o segundo número: "))
 
     print(maior_divisor(a,b))
 
 main ()
 
-# autor: Luiz Antonio Scarabelot Fiabani
